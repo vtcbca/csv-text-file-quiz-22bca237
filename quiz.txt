@@ -1,0 +1,18 @@
+import csv
+line='''[['reni',4567890123]
+        ['isha',999999999]
+        ['riya',888888888]
+        ['krina',4534534533]
+        ['kishu',8899007766]
+        ]'''
+with open('contact.csv','w',newline='')as c:
+    y=csv.writer(c)
+    y.writerow(line)
+    print(line)
+
+[['reni',4567890123]
+        ['isha',999999999]
+        ['riya',888888888]
+        ['krina',4534534533]
+        ['kishu',8899007766]
+        ]
